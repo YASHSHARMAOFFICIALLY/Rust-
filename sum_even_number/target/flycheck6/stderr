@@ -1,50 +1,6 @@
-   0.012123166s  INFO prepare_target{force=false package_id=sum_even_number v0.1.0 (/Users/yashsharma/Rust_learning/sum_even_number) target="sum_even_number"}: cargo::core::compiler::fingerprint: fingerprint error for sum_even_number v0.1.0 (/Users/yashsharma/Rust_learning/sum_even_number)/Check { test: false }/TargetInner { name: "sum_even_number", doc: true, ..: with_path("/Users/yashsharma/Rust_learning/sum_even_number/src/main.rs", Edition2024) }
-   0.012169916s  INFO prepare_target{force=false package_id=sum_even_number v0.1.0 (/Users/yashsharma/Rust_learning/sum_even_number) target="sum_even_number"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/yashsharma/Rust_learning/sum_even_number/target/debug/.fingerprint/sum_even_number-97a7c920dfd10132/bin-sum_even_number`
-
-Caused by:
-    No such file or directory (os error 2)
-
-Stack backtrace:
-   0: std::backtrace::Backtrace::create
-   1: cargo_util::paths::read_bytes
-   2: cargo_util::paths::read
-   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
-   4: cargo::core::compiler::fingerprint::prepare_target
-   5: cargo::core::compiler::compile
-   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
-   7: cargo::ops::cargo_compile::compile_ws
-   8: cargo::ops::cargo_compile::compile_with_exec
-   9: cargo::ops::cargo_compile::compile
-  10: cargo::commands::check::exec
-  11: <cargo::cli::Exec>::exec
-  12: cargo::main
-  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
-  14: std::rt::lang_start::<()>::{closure#0}
-  15: std::rt::lang_start_internal
-  16: _main
-   0.019900708s  INFO prepare_target{force=false package_id=sum_even_number v0.1.0 (/Users/yashsharma/Rust_learning/sum_even_number) target="sum_even_number"}: cargo::core::compiler::fingerprint: fingerprint error for sum_even_number v0.1.0 (/Users/yashsharma/Rust_learning/sum_even_number)/Check { test: true }/TargetInner { name: "sum_even_number", doc: true, ..: with_path("/Users/yashsharma/Rust_learning/sum_even_number/src/main.rs", Edition2024) }
-   0.019919708s  INFO prepare_target{force=false package_id=sum_even_number v0.1.0 (/Users/yashsharma/Rust_learning/sum_even_number) target="sum_even_number"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/yashsharma/Rust_learning/sum_even_number/target/debug/.fingerprint/sum_even_number-4c5078e6a1239909/test-bin-sum_even_number`
-
-Caused by:
-    No such file or directory (os error 2)
-
-Stack backtrace:
-   0: std::backtrace::Backtrace::create
-   1: cargo_util::paths::read_bytes
-   2: cargo_util::paths::read
-   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
-   4: cargo::core::compiler::fingerprint::prepare_target
-   5: cargo::core::compiler::compile
-   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
-   7: cargo::ops::cargo_compile::compile_ws
-   8: cargo::ops::cargo_compile::compile_with_exec
-   9: cargo::ops::cargo_compile::compile
-  10: cargo::commands::check::exec
-  11: <cargo::cli::Exec>::exec
-  12: cargo::main
-  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
-  14: std::rt::lang_start::<()>::{closure#0}
-  15: std::rt::lang_start_internal
-  16: _main
-    Checking sum_even_number v0.1.0 (/Users/yashsharma/Rust_learning/sum_even_number)
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.62s
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on shared package cache
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.39s
