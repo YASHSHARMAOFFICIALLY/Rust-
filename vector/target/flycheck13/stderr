@@ -1,6 +1,5 @@
-    Blocking waiting for file lock on package cache
-   0.017760333s  INFO prepare_target{force=false package_id=vector v0.1.0 (/Users/yashsharma/Rust_learning/vector) target="vector"}: cargo::core::compiler::fingerprint: fingerprint error for vector v0.1.0 (/Users/yashsharma/Rust_learning/vector)/Check { test: false }/TargetInner { name: "vector", doc: true, ..: with_path("/Users/yashsharma/Rust_learning/vector/src/main.rs", Edition2024) }
-   0.017973166s  INFO prepare_target{force=false package_id=vector v0.1.0 (/Users/yashsharma/Rust_learning/vector) target="vector"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/yashsharma/Rust_learning/vector/target/debug/.fingerprint/vector-fb0773aabb0789c9/bin-vector`
+   0.010145625s  INFO prepare_target{force=false package_id=vector v0.1.0 (/Users/yashsharma/Rust_learning/vector) target="vector"}: cargo::core::compiler::fingerprint: fingerprint error for vector v0.1.0 (/Users/yashsharma/Rust_learning/vector)/Check { test: false }/TargetInner { name: "vector", doc: true, ..: with_path("/Users/yashsharma/Rust_learning/vector/src/main.rs", Edition2024) }
+   0.010173291s  INFO prepare_target{force=false package_id=vector v0.1.0 (/Users/yashsharma/Rust_learning/vector) target="vector"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/yashsharma/Rust_learning/vector/target/debug/.fingerprint/vector-fb0773aabb0789c9/bin-vector`
 
 Caused by:
     No such file or directory (os error 2)
@@ -23,8 +22,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.024290541s  INFO prepare_target{force=false package_id=vector v0.1.0 (/Users/yashsharma/Rust_learning/vector) target="vector"}: cargo::core::compiler::fingerprint: fingerprint error for vector v0.1.0 (/Users/yashsharma/Rust_learning/vector)/Check { test: true }/TargetInner { name: "vector", doc: true, ..: with_path("/Users/yashsharma/Rust_learning/vector/src/main.rs", Edition2024) }
-   0.024316875s  INFO prepare_target{force=false package_id=vector v0.1.0 (/Users/yashsharma/Rust_learning/vector) target="vector"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/yashsharma/Rust_learning/vector/target/debug/.fingerprint/vector-e3f26fe1b1201621/test-bin-vector`
+   0.016729083s  INFO prepare_target{force=false package_id=vector v0.1.0 (/Users/yashsharma/Rust_learning/vector) target="vector"}: cargo::core::compiler::fingerprint: fingerprint error for vector v0.1.0 (/Users/yashsharma/Rust_learning/vector)/Check { test: true }/TargetInner { name: "vector", doc: true, ..: with_path("/Users/yashsharma/Rust_learning/vector/src/main.rs", Edition2024) }
+   0.016744958s  INFO prepare_target{force=false package_id=vector v0.1.0 (/Users/yashsharma/Rust_learning/vector) target="vector"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/yashsharma/Rust_learning/vector/target/debug/.fingerprint/vector-e3f26fe1b1201621/test-bin-vector`
 
 Caused by:
     No such file or directory (os error 2)

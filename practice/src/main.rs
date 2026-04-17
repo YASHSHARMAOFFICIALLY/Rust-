@@ -85,3 +85,53 @@
 //     println!("{:?}",vec)
         
 // }
+
+
+// use std::collections::HashMap;
+// fn main(){
+//     let mut user = HashMap::new();
+//     user.insert(String::from("harkirat"),32);
+//     user.insert(String::from("raman"),32);
+
+//     let first_user_age = user.get("harkirat");
+//     println!("{:?}",first_user_age);
+// }
+
+
+// use std::collections::HashMap;
+
+// fn group_value_by_keys(vec:Vec<(String,i32)>) -> HashMap<String,i32>{
+//     let mut hm = HashMap::new();
+//     for(key,value)in vec {
+//         hm.insert(key,value);
+//     }
+//     return hm;
+// }
+
+// fn main(){
+//     let input_vec = vec![(String::from("harikart"),22),(String::from("raman"),32)];
+//     let hm = group_value_by_keys(input_vec);
+
+//     println!("{:?}",hm)
+// }
+
+
+// fn main(){
+//     let mut v1 = vec![1,2,3];
+//     let v1_iter = v1.iter_mut();
+//     for val in v1_iter{
+//          *val = *val + 1
+// }
+//     println!("{:?}",v1)
+// }
+
+
+fn main(){
+    let mut v1 = vec![1,2,3];
+    let mut v1_iter = v1.iter_mut();
+
+    while let Some(val) = v1_iter.next(){
+        println!("{}",val)
+    }
+    println!("{:?}",v1)
+}
